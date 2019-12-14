@@ -11,8 +11,11 @@ function getWeather(lat,lon){
         return response.json();
     }).then(function(json){
         const temperature=json.main.temp;
+        const feelsLike=json.main.feels_like;
         const place=json.name;
-        weather.innerText=`${temperature} @ ${place}`;
+        weather.innerText=`Temprature: ${temperature}°C
+        Feels Like: ${feelsLike}°C
+         Current Location: ${place}`;
     });
 }
 

@@ -81,7 +81,8 @@ function paintToDo(text){
     delBtn.addEventListener("click",deleteToDo);
     moveBtn.addEventListener("click", moveToDo);
     const span=document.createElement("span");
-    span.innerText=text;
+  
+    span.innerText=`${text}`;
     totalLen = totalLen + 1;
     const newId = totalLen;
     
