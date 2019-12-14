@@ -19,6 +19,12 @@ body{
 
 }
 
+h2{
+    background-color:lightskyblue;
+    opacity:70%;
+    border-radius:5%;
+}
+
 
 @keyframes fadeIn{
     from{
@@ -32,6 +38,17 @@ body{
 ul{
    font-size:20px;
    list-style:none;
+   margin: 50px;
+   
+}
+li span{
+    background-color: lightsteelblue;
+    padding: 0 20px;
+    border-radius:5%;
+    opacity:60%;
+}
+span{
+    opacity:80%;
 }
 
 .bgImage{
